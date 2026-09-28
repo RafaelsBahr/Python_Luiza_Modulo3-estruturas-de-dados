@@ -51,7 +51,31 @@
 #     print(jogador)
 
 
-x = {10, 11, 10, 12}
-print(type(x))
-print(x)
-print(len(x))
+# x = {10, 11, 10, 12}
+# print(type(x))
+# print(x)
+# print(len(x))
+
+lista_jogadores = [{'nome': 'Rafael', 'Seleção': 'Brasil', 'Quantidade de gols': 3}, {'nome': 'Sabrina', 'Seleção': 'USA', 'Quantidade de gols': 3}, {'nome': 'Gustavo', 'Seleção': 'China', 'Quantidade de gols': 2}]
+
+# print(x[0]['nome'])
+
+# for jogador in lista_jogadores:
+#     print(jogador['nome'])
+
+# total_gols = 0
+# for jogador in lista_jogadores:
+#     total_gols += jogador['Quantidade de gols']
+# print(total_gols)
+
+melhor_jogador = []
+qtd_gols_melhor_jogador = 0
+for jogador in lista_jogadores:
+    if jogador['Quantidade de gols'] >= qtd_gols_melhor_jogador:
+        melhor_jogador.append(jogador['nome'])
+        qtd_gols_melhor_jogador = jogador['Quantidade de gols']
+
+if melhor_jogador
+for jogador in melhor_jogador:
+    print
+print(melhor_jogador)
