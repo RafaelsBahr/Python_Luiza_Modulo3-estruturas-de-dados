@@ -74,8 +74,3 @@ for jogador in lista_jogadores:
     if jogador['Quantidade de gols'] >= qtd_gols_melhor_jogador:
         melhor_jogador.append(jogador['nome'])
         qtd_gols_melhor_jogador = jogador['Quantidade de gols']
-
-if melhor_jogador
-for jogador in melhor_jogador:
-    print
-print(melhor_jogador)
